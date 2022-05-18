@@ -1,0 +1,24 @@
+@media only screen and (max-width: 1000px) {
+
+    header,
+    section,
+    footer {
+        width: 1320px;
+    }
+
+    /* icon facebook, youtobe ...*/
+    .next-slide .icon {
+        display: none;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container-xxl,
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 1320px;
+    }
+}

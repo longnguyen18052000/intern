@@ -1,0 +1,166 @@
+.login .box-login{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.login .img {
+    background: #fbe9e7;
+}
+
+.login .content {
+    padding: 20px 20px;
+}
+
+.login .content .icon {
+    color: #fff;
+}
+
+.login .content .icon .facebook {
+    background: #4267B2;
+    margin-right: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+}
+
+.login .content .icon .facebook i {
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.login .content .icon .google {
+    background: #4385F5;
+    border-radius: 5px;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+}
+
+.login .content .icon .google i {
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.login .content .login-form .enter {
+    display: inline;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: #E5E5E5;
+    padding: 5px 0px 5px 0px;
+    border-radius: 5px;
+}
+
+.login .content .foot {
+    align-items: center;
+    justify-content: space-between;
+    width: 47%;
+    border-bottom: 2px solid #afafaf;
+}
+
+.login .content .login-form .check {
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+.login .content .click button {
+    width: 49%;
+    font-weight: bold;
+}
+
+
+.login .content .click button{
+    background: transparent linear-gradient(180deg, #00917a 0%, #00483d 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0 4px 6px #00000029;
+    border-radius: 3px;
+    border: none;
+    padding: 12px;
+    color: #FFF;
+}
+
+.login .content .click a {
+    border-radius: 3px;
+    padding: 10px;
+    background-color: #fff;
+    color: black;
+    width: 49%;
+    font-weight: bold;
+    height: 100%;
+    border: 2px solid black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.login .content ol li a{
+    text-decoration: none;
+    color: black;
+}
+
+.login .content ol li a:hover{
+    color: #00917a;
+}
+
+.login .content .click a:hover {
+    color: #00917a;
+}
+
+/* end login */
+
+/* resgiter */
+.resgiter{
+    padding-left: 150px;
+    padding-right: 150px;
+    border-radius: 10px;
+}
+
+.resgiter .item {
+    background: #fff;
+    border-radius: 10px;
+}
+
+.resgiter .item .img {
+    background: #fbe9e7;
+    border-radius: 10px;
+}
+
+.resgiter .item .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+.resgiter .item .content form > div {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.resgiter .item .content div label{
+    width: 30%;
+    font-size: 13px;
+}
+
+.resgiter .item .content div input, select{
+    width: 68%;
+    background: #e5e5e5 0% 0% no-repeat padding-box;
+    border-radius: 13px;
+    outline: none;
+    border: none;
+    padding: 6px 20px;
+    font-weight: 600;
+    color: #858585;
+}
+
+.resgiter .item .content div button{
+    background: linear-gradient(rgb(0, 153, 129) 0%, rgb(0, 72, 61) 100%) 0% 0% no-repeat padding-box padding-box transparent;
+    box-shadow: rgb(0 0 0 / 16%) 0px 4px 6px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 15px 60px;
+    outline: none;
+    border: none;
+}
+
+/* end resgiter */
